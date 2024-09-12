@@ -1,0 +1,29 @@
+.footer {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .social-icons a {
+      margin-right: 5px;
+      font-size: 14px;
+    }
+  }
+  
