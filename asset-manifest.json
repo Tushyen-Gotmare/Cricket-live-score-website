@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cricket-live-score-website/static/css/main.2ca6d991.css",
+    "main.js": "/Cricket-live-score-website/static/js/main.1be9a247.js",
+    "static/js/453.d4e813ce.chunk.js": "/Cricket-live-score-website/static/js/453.d4e813ce.chunk.js",
+    "static/media/Explainer Video_ CricketID.gif": "/Cricket-live-score-website/static/media/Explainer Video_ CricketID.e22b3d805e8aff7ef75c.gif",
+    "index.html": "/Cricket-live-score-website/index.html",
+    "main.2ca6d991.css.map": "/Cricket-live-score-website/static/css/main.2ca6d991.css.map",
+    "main.1be9a247.js.map": "/Cricket-live-score-website/static/js/main.1be9a247.js.map",
+    "453.d4e813ce.chunk.js.map": "/Cricket-live-score-website/static/js/453.d4e813ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca6d991.css",
+    "static/js/main.1be9a247.js"
+  ]
+}
