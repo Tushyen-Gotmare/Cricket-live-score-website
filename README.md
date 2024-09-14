@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+ Cricket-Themed Website for XYZ Organization
+A cricket-themed interactive website built with React.js, CSS, and HTML. The site features live cricket scores, a multi-stage registration form, and various pages for cricket tournaments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Responsive design for mobile and desktop.
+Live cricket scores fetched from CricAPI.
+Multi-Stage Registration Form for users to sign up for tournaments.
+Attractive animations and modern UI/UX.
 
-## Available Scripts
+Tech Stack
+Frontend: React.js, HTML, CSS
+API: CricAPI for live scores
 
-In the project directory, you can run:
+Installation
+Clone the repository: git clone https://github.com/your-username/cricket-website.git
+cd cricket-website
 
-### `npm start`
+Install dependencies: npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Start the project: npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project Structure
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cricket-website/
+│
+├── public/                    Public assets (e.g., index.html, favicon)
+│   └── index.html             Main HTML file
+│
+├── src/                       Source folder
+│   ├── components/            React Components
+│   │   ├── AboutUs.js         About Us Page Component
+│   │   ├── Footer.js          Footer Component
+│   │   ├── Header.js          Header Component
+│   │   ├── Homee.js           Home Page Component (rename to Home.js for clarity)
+│   │   ├── LiveScores.js      Live Scores Component
+│   │   ├── RegisterForm.js    Multi-Stage Registration Form Component
+│   │   └── Tournaments.js     Tournaments Page Component
+│   │
+│   ├── styles/                CSS stylesheets
+│   │   ├── AboutUs.css        Styles for About Us Page
+│   │   ├── Footer.css         Styles for Footer
+│   │   ├── Header.css         Styles for Header
+│   │   ├── Home.css           Styles for Home Page
+│   │   ├── LiveScores.css     Styles for Live Scores
+│   │   ├── RegisterForm.css   Styles for Registration Form
+│   │   └── Tournaments.css    Styles for Tournaments Page
+│   │
+│   ├── App.js                 Main App Component
+│   ├── App.css                Global Styles
+│   ├── index.js               Entry Point of the Application
+│   └── .env                   Environment Variables (e.g., API keys)
+│
+├── package.json               Project Dependencies and Scripts
+└── README.md                  Documentation
