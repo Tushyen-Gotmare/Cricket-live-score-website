@@ -23,32 +23,32 @@ Project Structure
 
 cricket-website/
 │
-├── public/                    Public assets (e.g., index.html, favicon)
-│   └── index.html             Main HTML file
+├── public/                   # Public assets (e.g., index.html, favicon)
+│   └── index.html            # Main HTML file
 │
-├── src/                       Source folder
-│   ├── components/            React Components
-│   │   ├── AboutUs.js         About Us Page Component
-│   │   ├── Footer.js          Footer Component
-│   │   ├── Header.js          Header Component
-│   │   ├── Homee.js           Home Page Component (rename to Home.js for clarity)
-│   │   ├── LiveScores.js      Live Scores Component
-│   │   ├── RegisterForm.js    Multi-Stage Registration Form Component
-│   │   └── Tournaments.js     Tournaments Page Component
+├── src/                      # Source folder
+│   ├── components/           # React Components
+│   │   ├── AboutUs.js        # About Us Page Component
+│   │   ├── Footer.js         # Footer Component
+│   │   ├── Header.js         # Header Component
+│   │   ├── Homee.js          # Home Page Component (rename to Home.js for clarity)
+│   │   ├── LiveScores.js     # Live Scores Component
+│   │   ├── RegisterForm.js   # Multi-Stage Registration Form Component
+│   │   └── Tournaments.js    # Tournaments Page Component
 │   │
-│   ├── styles/                CSS stylesheets
-│   │   ├── AboutUs.css        Styles for About Us Page
-│   │   ├── Footer.css         Styles for Footer
-│   │   ├── Header.css         Styles for Header
-│   │   ├── Home.css           Styles for Home Page
-│   │   ├── LiveScores.css     Styles for Live Scores
-│   │   ├── RegisterForm.css   Styles for Registration Form
-│   │   └── Tournaments.css    Styles for Tournaments Page
+│   ├── styles/               # CSS stylesheets
+│   │   ├── AboutUs.css       # Styles for About Us Page
+│   │   ├── Footer.css        # Styles for Footer
+│   │   ├── Header.css        # Styles for Header
+│   │   ├── Home.css          # Styles for Home Page
+│   │   ├── LiveScores.css    # Styles for Live Scores
+│   │   ├── RegisterForm.css  # Styles for Registration Form
+│   │   └── Tournaments.css   # Styles for Tournaments Page
 │   │
-│   ├── App.js                 Main App Component
-│   ├── App.css                Global Styles
-│   ├── index.js               Entry Point of the Application
-│   └── .env                   Environment Variables (e.g., API keys)
+│   ├── App.js                # Main App Component
+│   ├── App.css               # Global Styles
+│   ├── index.js              # Entry Point of the Application
+│   └── .env                  # Environment Variables (e.g., API keys)
 │
-├── package.json               Project Dependencies and Scripts
-└── README.md                  Documentation
+├── package.json              # Project Dependencies and Scripts
+└── README.md                 # Documentation
