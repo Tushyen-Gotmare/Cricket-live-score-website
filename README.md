@@ -12,7 +12,7 @@ Frontend: React.js, HTML, CSS
 API: CricAPI for live scores
 
 Installation
-Clone the repository: git clone https://github.com/your-username/cricket-website.git
+Clone the repository: git clone https://github.com/Tushyen-Gotmare/cricket-live-score-website.git
 cd cricket-website
 
 Install dependencies: npm install
